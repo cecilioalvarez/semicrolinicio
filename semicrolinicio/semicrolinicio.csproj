@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>semicrolinicio.Program5</StartupObject>
+    <StartupObject>semicrolinicio.Programa9</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,12 +46,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factura.cs" />
+    <Compile Include="Madalena.cs" />
+    <Compile Include="Nota.cs" />
+    <Compile Include="Persona.cs" />
+    <Compile Include="Programa9.cs" />
+    <Compile Include="Programa8.cs" />
+    <Compile Include="Programa7.cs" />
+    <Compile Include="Programa6.cs" />
     <Compile Include="Program5.cs" />
     <Compile Include="Program4.cs" />
     <Compile Include="Program3..cs" />
     <Compile Include="Program2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rectangulo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
