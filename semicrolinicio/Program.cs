@@ -11,6 +11,16 @@ namespace semicrolinicio
         static void Main(string[] args)
         {
             Console.WriteLine("hola");
+            int numero = 7;
+            Console.WriteLine(numero);
+            numero = 10;
+            string texto = "hola";
+            Console.WriteLine(numero);
+            Console.WriteLine(texto);
+            Console.ReadLine();
+            
+
+
         }
     }
 }
