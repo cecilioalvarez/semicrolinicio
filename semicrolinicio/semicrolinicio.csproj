@@ -59,6 +59,7 @@
     <Compile Include="Ordenador.cs" />
     <Compile Include="Paciente.cs" />
     <Compile Include="Persona.cs" />
+    <Compile Include="Portatil.cs" />
     <Compile Include="Programa16.cs" />
     <Compile Include="Programa15..cs" />
     <Compile Include="Programa14.cs" />

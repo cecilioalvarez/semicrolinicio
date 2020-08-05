@@ -20,10 +20,21 @@ namespace semicrolinicio
         public CPU CPU { get; set; }
 
         public Monitor Monitor { get; set; }
-        public void Encender()
+        public virtual void Encender()
         {
             //Console.WriteLine("el ordenador se enciende");
+            EncenderCPU();
+            EncenderMonitor();
+          
+        }
+
+        protected virtual void EncenderCPU()
+        {
             CPU.Encender();
+        }
+
+         protected virtual void EncenderMonitor()
+        {
             Monitor.Encender();
         }
         public void Apagar ()

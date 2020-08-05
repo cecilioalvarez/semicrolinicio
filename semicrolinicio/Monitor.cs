@@ -8,6 +8,11 @@ namespace semicrolinicio
 {
     class Monitor
     {
+        public Monitor(int pulgadas)
+        {
+            Pulgadas = pulgadas;
+        }
+
         public int Pulgadas { get; set; }
 
         public void Encender()

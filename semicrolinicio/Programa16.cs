@@ -11,8 +11,12 @@ namespace semicrolinicio
         static void Main(string[] args)
         {
 
-            Ordenador o = new Ordenador(new CPU(),new Monitor());
+            Ordenador o = new Ordenador(new CPU(),new Monitor(15));
+            
             o.Encender();
+            Portatil p = new Portatil(new CPU());
+           
+            p.Encender();
             Console.ReadLine();
 
 
