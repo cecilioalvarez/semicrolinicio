@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>semicrolinicio.Programa16</StartupObject>
+    <StartupObject>semicrolinicio.Programa18</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,39 +46,49 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Alumno.cs" />
-    <Compile Include="Compra.cs" />
-    <Compile Include="CPU.cs" />
-    <Compile Include="Electrodomestico.cs" />
-    <Compile Include="Factura.cs" />
-    <Compile Include="HistorialMedico.cs" />
-    <Compile Include="LineaCompra.cs" />
-    <Compile Include="Madalena.cs" />
-    <Compile Include="Monitor.cs" />
-    <Compile Include="Nota.cs" />
-    <Compile Include="Ordenador.cs" />
-    <Compile Include="Paciente.cs" />
-    <Compile Include="Persona.cs" />
-    <Compile Include="Portatil.cs" />
-    <Compile Include="Programa16.cs" />
-    <Compile Include="Programa15..cs" />
-    <Compile Include="Programa14.cs" />
-    <Compile Include="Programa13.cs" />
-    <Compile Include="Programa12.cs" />
-    <Compile Include="Programa11.cs" />
-    <Compile Include="Programa10.cs" />
-    <Compile Include="Programa9.cs" />
-    <Compile Include="Programa8.cs" />
-    <Compile Include="Programa7.cs" />
-    <Compile Include="Programa6.cs" />
-    <Compile Include="Program5.cs" />
-    <Compile Include="Program4.cs" />
-    <Compile Include="Program3..cs" />
-    <Compile Include="Program2.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="basico2\Alquiler.cs" />
+    <Compile Include="basico2\AlquilerJoven.cs" />
+    <Compile Include="basico2\AlquilerVIP.cs" />
+    <Compile Include="basico2\Animal.cs" />
+    <Compile Include="basico2\Empresa.cs" />
+    <Compile Include="basico2\FactoriaAnimales.cs" />
+    <Compile Include="basico2\Gato.cs" />
+    <Compile Include="basico2\Programa18..cs" />
+    <Compile Include="basico2\Programa17.cs" />
+    <Compile Include="basico\Alumno.cs" />
+    <Compile Include="basico\Compra.cs" />
+    <Compile Include="basico\CPU.cs" />
+    <Compile Include="basico\Electrodomestico.cs" />
+    <Compile Include="basico\Factura.cs" />
+    <Compile Include="basico\HistorialMedico.cs" />
+    <Compile Include="basico\LineaCompra.cs" />
+    <Compile Include="basico\Madalena.cs" />
+    <Compile Include="basico\Monitor.cs" />
+    <Compile Include="basico\Nota.cs" />
+    <Compile Include="basico\Ordenador.cs" />
+    <Compile Include="basico\Paciente.cs" />
+    <Compile Include="basico\Persona.cs" />
+    <Compile Include="basico\Portatil.cs" />
+    <Compile Include="basico\Programa16.cs" />
+    <Compile Include="basico\Programa15..cs" />
+    <Compile Include="basico\Programa14.cs" />
+    <Compile Include="basico\Programa13.cs" />
+    <Compile Include="basico\Programa12.cs" />
+    <Compile Include="basico\Programa11.cs" />
+    <Compile Include="basico\Programa10.cs" />
+    <Compile Include="basico\Programa9.cs" />
+    <Compile Include="basico\Programa8.cs" />
+    <Compile Include="basico\Programa7.cs" />
+    <Compile Include="basico\Programa6.cs" />
+    <Compile Include="basico\Program5.cs" />
+    <Compile Include="basico\Program4.cs" />
+    <Compile Include="basico\Program3..cs" />
+    <Compile Include="basico\Program2.cs" />
+    <Compile Include="basico\Program.cs" />
+    <Compile Include="basico2\Perro.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rectangulo.cs" />
-    <Compile Include="Televisor.cs" />
+    <Compile Include="basico\Rectangulo.cs" />
+    <Compile Include="basico\Televisor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
