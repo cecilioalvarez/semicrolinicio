@@ -41,6 +41,10 @@ namespace semicrolinicio
 
             return 70 - Edad;
         }
-    
+
+        //public override string ToString()
+        //{
+        //    return Nombre + "," + Apellidos + "," + Edad;
+        //}
     }
 }

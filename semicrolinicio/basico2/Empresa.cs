@@ -19,6 +19,20 @@ namespace semicrolinicio.basico2
             this.Alquileres.Add(a);
         }
 
+        public void RemoveAlquiler(Alquiler a)
+        {
+
+            this.Alquileres.Remove(a);
+        }
+        public bool ContieneAlquiler(Alquiler a)
+        {
+            return this.Alquileres.Contains(a);
+
+        }
+        public int NumeroAlquileres()
+        {
+           return this.Alquileres.Count();
+        }
         public double ImpresosTotales()
         {
             double total = 0;
@@ -27,6 +41,22 @@ namespace semicrolinicio.basico2
                 total += a.ImporteFinal();
             }
             return total;
+        }
+
+        public Alquiler AlquilerMasCaro()
+        {
+
+            Alquiler mayor = Alquileres[0];
+            foreach (Alquiler a in Alquileres)
+            {
+
+                if (mayor.ImporteFinal()< a.ImporteFinal())
+                {
+                    mayor = a;
+                }
+                
+            }
+            return mayor;
         }
     }
 }

@@ -23,8 +23,13 @@ namespace semicrolinicio
             e.AddAlquiler(a2);
             e.AddAlquiler(a3);
             e.AddAlquiler(a4);
+            e.RemoveAlquiler(a4);
 
             Console.WriteLine(e.ImpresosTotales());
+            Alquiler masCaro = e.AlquilerMasCaro();
+            Console.WriteLine(masCaro.Numero);
+
+            Console.WriteLine(e.AlquilerMasCaro().ImporteFinal());
             Console.ReadLine();
 
         }
