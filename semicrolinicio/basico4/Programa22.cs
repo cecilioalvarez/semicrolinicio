@@ -20,10 +20,11 @@ namespace semicrolinicio.basico3
             c.AddEncendible(new Bombilla());
             c.AddEncendible(new BombillaSmart("1"));
             //c.AddEncendible(new Frigorifico());
-            c.AddEncendible(new EnchufeSmartAdaptador("2", new Frigorifico()));
+            c.AddEncendible(new EnchufeSmartAdaptador("2", new Frigorifico(20)));
             //c.EncenderTodo();
             c.EncenderPorVoz("2");
             Console.ReadLine();
+           
 
         }
 
