@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>semicrolinicio.Programa20</StartupObject>
+    <StartupObject>semicrolinicio.basico3.Programa22</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -57,6 +57,21 @@
     <Compile Include="basico2\Programa19.cs" />
     <Compile Include="basico2\Programa18..cs" />
     <Compile Include="basico2\Programa17.cs" />
+    <Compile Include="basico3\Conducible.cs" />
+    <Compile Include="basico3\IConducibleConectable.cs" />
+    <Compile Include="basico3\IConectable.cs" />
+    <Compile Include="basico3\Moto.cs" />
+    <Compile Include="basico3\Patinete.cs" />
+    <Compile Include="basico3\Programa21.cs" />
+    <Compile Include="basico3\Segway.cs" />
+    <Compile Include="basico4\Bombilla.cs" />
+    <Compile Include="basico4\BombillaSmart.cs" />
+    <Compile Include="basico4\Cocina.cs" />
+    <Compile Include="basico4\EnchufeSmartAdaptador.cs" />
+    <Compile Include="basico4\Frigorifico.cs" />
+    <Compile Include="basico4\IEncendible.cs" />
+    <Compile Include="basico4\IEncendibleVoz.cs" />
+    <Compile Include="basico4\Programa22.cs" />
     <Compile Include="basico\Alumno.cs" />
     <Compile Include="basico\Compra.cs" />
     <Compile Include="basico\CPU.cs" />
