@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>semicrolinicio.basico3.Programa24</StartupObject>
+    <StartupObject>semicrolinicio.basico3.Programa28</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -80,6 +80,11 @@
     <Compile Include="basico5\IPrecio.cs" />
     <Compile Include="basico5\Pack.cs" />
     <Compile Include="basico5\Programa24.cs" />
+    <Compile Include="basico6\Persona.cs" />
+    <Compile Include="basico6\Programa28..cs" />
+    <Compile Include="basico6\Programa27..cs" />
+    <Compile Include="basico6\Programa26..cs" />
+    <Compile Include="basico6\Programa25.cs" />
     <Compile Include="basico\Alumno.cs" />
     <Compile Include="basico\Compra.cs" />
     <Compile Include="basico\CPU.cs" />
