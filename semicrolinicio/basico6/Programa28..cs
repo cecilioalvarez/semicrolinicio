@@ -21,11 +21,14 @@ namespace semicrolinicio.basico3
 
         static void Main(string[] args)
         {
-            Func<int, int, int> mifuncion= Restar;
+            Func<int, int, int> mifuncion = (a, b) => a * b; 
 
+
+       
             OperarPorPantalla(2, 3,Sumar);
             OperarPorPantalla(2, 3, Restar);
-
+            OperarPorPantalla(2, 2, mifuncion);
+            OperarPorPantalla(2,4,(a,b)=>a/b);
             Console.ReadLine();
           
         }
@@ -39,7 +42,8 @@ namespace semicrolinicio.basico3
             return a - b;
         }
 
-        public static void OperarPorPantalla(int a , int b,Func<int,int,int> tipoOperación)
+        public static void OperarPorPantalla(int a , int b,
+            Func<int,int,int> tipoOperación)
         {
             Console.WriteLine("*********");
             Console.WriteLine(tipoOperación(a, b));

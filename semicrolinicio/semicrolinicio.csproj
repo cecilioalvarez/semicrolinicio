@@ -81,6 +81,7 @@
     <Compile Include="basico5\Pack.cs" />
     <Compile Include="basico5\Programa24.cs" />
     <Compile Include="basico6\Persona.cs" />
+    <Compile Include="basico6\Programa29.cs" />
     <Compile Include="basico6\Programa28..cs" />
     <Compile Include="basico6\Programa27..cs" />
     <Compile Include="basico6\Programa26..cs" />
